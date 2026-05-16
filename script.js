@@ -23,7 +23,7 @@
   // Scroll-reveal animations (uses IntersectionObserver)
   // -----------------------------------------------------------------------
   const revealTargets = document.querySelectorAll(
-    '.section-title, .lede, .service-card, .step, .quote, .metric, .plan, .faq-item'
+    '.section-title, .lede, .service-card, .step, .quote, .metric, .plan, .faq-item, .value, .force__shot'
   );
   revealTargets.forEach(el => el.classList.add('reveal'));
 
